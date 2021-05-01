@@ -4,6 +4,7 @@ import os
 import atexit
 import threading
 import time
+import pyfiglet
 from colorama import *
 init(autoreset=True)
 
@@ -11,9 +12,10 @@ red = Fore.RED
 yellow = Fore.YELLOW
 green = Fore.GREEN
 
-print(yellow + "*" * 38)
-print("{0}* EVIL-TWIN: A Wireless PenTest Tool *".format(yellow))
-print(yellow + "*" * 38)
+#title
+ascii_banner = pyfiglet.figlet_format("Wick3d-cl0ne")
+print(green + ascii_banner)
+
 print("\nSee README for configuration directions")
 class Dependencies(object):
     """ Checks dependencies exist"""

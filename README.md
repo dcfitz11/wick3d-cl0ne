@@ -1,7 +1,7 @@
 # wick3d-cl0ne
 A wireless penetration testing tool: Clone an access point in **Kali Linux**.
 
-ewicked-cl0ne.py clones an access point with the same SSID and security settings as a target access point OR spawns a fake access point with its own network and security configurations. Dependencies are installed prior to starting. The configuration files (hostapd.conf) and (dnsmasq.conf) are created with pre-populated and pre-defined network and security parameters. These configuration files are automatically installed in a new folder called "/evil-twin," in the current path. Users are prompted to enter a few network parameters prior to starting the access point, but can modify the configuration files as they see fit. Iptables and IP forwarding are configured automatically to forward network traffic on behalf of wireless clients connected to the access point.
+wicked-cl0ne.py clones an access point with the same SSID and security settings as a target access point OR spawns a fake access point with its own network and security configurations. Dependencies are installed prior to starting. The configuration files (hostapd.conf) and (dnsmasq.conf) are created with pre-populated and pre-defined network and security parameters. These configuration files are automatically installed in a new folder called "/evil-twin," in the current path. Users are prompted to enter a few network parameters prior to starting the access point, but can modify the configuration files as they see fit. Iptables and IP forwarding are configured automatically to forward network traffic on behalf of wireless clients connected to the access point.
 
 **NOTE:** evil-twin.py requires a wireless network adapter. Some knowledge of hostapd and dnsmasq is also beneficial.
 
